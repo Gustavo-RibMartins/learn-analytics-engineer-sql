@@ -1,6 +1,6 @@
-## Teoria
+# Teoria
 
-### Anatomia de uma Query SQL
+## Anatomia de uma Query SQL
 
 **Plano de Execução de uma Query**: procedimento/sequência a ser executada (anatomia) em uma query;
 
@@ -19,7 +19,7 @@ Porém, a sequência pode variar em alguns casos, como quando o otimizador de co
 
 ---
 
-### Tipos de dados
+## Tipos de dados
 
 **Quantitativos**
 
@@ -39,7 +39,7 @@ Representam características que não podem ser medidas em uma escala numérica,
 
 ---
 
-### Categorização
+## Categorização
 
 A categorização em variáveis numéricas, no contexto da análise de dados, refere-se ao processo de transformar dados numéricos contínuos ou discretos em categorias ou grupos discretos. Esse processo é também frequentemente chamado de "binning" ou "bucketing".
 
@@ -65,7 +65,7 @@ O processo de categorização em variáveis numéricas geralmente envolve:
 
 ---
 
-### Codificação/ Encoding
+## Codificação/ Encoding
 
 No contexto da análise de dados e processamento de dados para modelagem preditiva ou machine learning, "codificação" ou "encoding" refere-se ao processo de converter dados categóricos ou textuais em um formato numérico que pode ser usado por algorítmos.
 
@@ -91,7 +91,7 @@ Em alguns casos, pode ser benéfico experimentar várias técnicas de codificaç
 
 ---
 
-### Binarização
+## Binarização
 
 No contexto de análise e processamento de dados, refere-se ao processo de converter dados numéricos ou categóricos em formato binário, ou seja, em valores 0 ou 1. Isso pode ser útil por diversas razões, incluindo a simplificação de dados, preparação para certos algoritmos ou até mesmo a extração de características relevantes de imagens em processamento de imagens.
 
@@ -966,3 +966,5 @@ O escalonamento é útil para algoritmos que assumem que todos os atributos est�
 ### Imputação de Dados
 
 É o processo de substituir dados faltantes ou nulos em um conjunto de dados por valores substitutos. O objetivo é tratar os problemas causados por dados ausentes, permitindo análises mais completas e precisas, reduzindo viés e melhorando a qualidade dos dados.
+
+---
