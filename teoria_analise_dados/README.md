@@ -1,4 +1,4 @@
-# Teoria
+# Teoria: Análise de Dados com SQL
 
 ## Anatomia de uma Query SQL
 
@@ -73,7 +73,7 @@ Existem várias técnicas de codificação e a escolha da técnica pode depender
 
 * **Codificação One-Hot**: cada categoria de uma variável é convertida em uma nova coluna binária (0 ou 1);
 
-![](./imagens/encoding-one-hot.png)
+![](../imagens/encoding-one-hot.png)
 
 * **Codificação por Rótulo**: cada categoria recebe um valor inteiro. Esta abordagem pode ser problemática para algoritmos que interpretam a natureza ordinal dos números, a menos que haja uma ordem inerente às categorias;
 
@@ -105,7 +105,7 @@ Contextos em que a binarização é aplicada:
 
 * **Preparação de Dados para Modelagem**: certos algorítmos, especialmente ous mais simples ou aqueles baseados em árvores, podem se beneficiar da simplificação de dados contínuos em formatos binários. A binarização pode ajudar a destacar relações não lineares entre características e a variável alvo;
 
-* **Engenharia de Características (Feature Engineering)**: as criações de novas características binárias pode ajudar a destacar determinadas relações nos dados. Por exemplo, a partur de uma variável média de renda, criar uma característica binária "renda_acima_da_média" que indica se a renda de um indivíduo está acima da média da amostra.
+* **Engenharia de Características (Feature Engineering)**: as criações de novas características binárias pode ajudar a destacar determinadas relações nos dados. Por exemplo, a partir de uma variável média de renda, criar uma característica binária "renda_acima_da_média" que indica se a renda de um indivíduo está acima da média da amostra.
 
 Ao realizar a binarização, é importante escolher limiares ou critérios apropriados para a conversão, para que a informação útil não seja perdida e para que a transformação seja relevante para o objetivo da análise ou modelagem.
 
